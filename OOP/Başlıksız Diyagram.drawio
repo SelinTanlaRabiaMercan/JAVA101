@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T12:13:50.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JZRIsNE6x5mNtpWn0ZRx" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-28T12:32:57.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="E7OrZFt6LCcQNbA7sihL" version="20.5.1" type="github" pages="4">
   <diagram id="pbQOoArL55WusBrc2UMb" name="Sayfa -1">
     <mxGraphModel dx="1935" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -530,6 +530,119 @@
             <Array as="points">
               <mxPoint x="240" y="401" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6QFadqeC8Lc1_FUQ2ZO0" name="Sayfa -4">
+    <mxGraphModel dx="1071" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yeERDKOMH-GH_0RP8StK-38" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="yeERDKOMH-GH_0RP8StK-9" target="yeERDKOMH-GH_0RP8StK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-9" value="Bina" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="41" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-13" value="Asansör" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-14" value="Kapasite: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-13">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-17" value="KontrolPaneli" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="140" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-23" value="HedefDugme: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-17">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-24" value="AcmaDugmesi: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-17">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-26" value="KapamaDugmesi:boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-17">
+          <mxGeometry y="78" width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-18" value="AcilDurumDugme: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-17">
+          <mxGeometry y="110" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-19" value="KatGosterge" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-20" value="Oldugukat(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-19">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-21" value="Asansör Kapısı" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-22" value="AcilKapan(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-21">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-27" value="Kat" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="120" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-28" value="Kapı" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-31" value="Varıszili" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="270" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-32" value="kataVardi(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-31">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-33" value="SinyalIsigi" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="360" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-34" value="AsansorYonu:boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-33">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-33">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-36" value="AsansorGeldi()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeERDKOMH-GH_0RP8StK-33">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-39" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="yeERDKOMH-GH_0RP8StK-13" target="yeERDKOMH-GH_0RP8StK-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="64" as="sourcePoint" />
+            <mxPoint x="470" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-40" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="yeERDKOMH-GH_0RP8StK-13" target="yeERDKOMH-GH_0RP8StK-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="182" as="sourcePoint" />
+            <mxPoint x="275" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-41" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yeERDKOMH-GH_0RP8StK-13" target="yeERDKOMH-GH_0RP8StK-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="182" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0.55;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yeERDKOMH-GH_0RP8StK-9" target="yeERDKOMH-GH_0RP8StK-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="192" as="sourcePoint" />
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-43" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="yeERDKOMH-GH_0RP8StK-27" target="yeERDKOMH-GH_0RP8StK-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="170" as="sourcePoint" />
+            <mxPoint x="800" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-44" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="yeERDKOMH-GH_0RP8StK-28" target="yeERDKOMH-GH_0RP8StK-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="182" as="sourcePoint" />
+            <mxPoint x="820" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeERDKOMH-GH_0RP8StK-45" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="yeERDKOMH-GH_0RP8StK-31" target="yeERDKOMH-GH_0RP8StK-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="192" as="sourcePoint" />
+            <mxPoint x="830" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
